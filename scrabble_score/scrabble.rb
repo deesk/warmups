@@ -28,7 +28,7 @@ class Scrabble
     end
 
     user_score = arr.reduce(:+)
-    puts "For string '#{str}' score is: #{user_score}." 
+    puts "String: '#{str}' Score: #{user_score}." 
 
   end
 
