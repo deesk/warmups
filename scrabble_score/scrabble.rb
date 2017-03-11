@@ -28,9 +28,8 @@ class Scrabble
     end
 
     user_score = arr.reduce(:+)
-    p user_score
+    puts "For string '#{str}' score is: #{user_score}." 
 
   end
 
 end
-binding.pry
